@@ -8,7 +8,7 @@ h1{
 .chocolate-color{
     color: chocolate;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -29,4 +29,26 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.Experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 25px gray;
+    border-radius: 10px;
+    padding-left: 20px;
+  
+}
+#web-dev-ex{
+    border-left: 7px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
